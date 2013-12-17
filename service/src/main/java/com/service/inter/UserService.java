@@ -1,6 +1,6 @@
 package com.service.inter;
 
-import com.model.User;
+import com.model.user.User;
 
 public interface UserService {
 
@@ -12,4 +12,7 @@ public interface UserService {
 	
 	//得到用户对象通过id
 	public User getUserById(int id);
+	
+	//增加新用户
+	public void addNewUser(User u);
 }

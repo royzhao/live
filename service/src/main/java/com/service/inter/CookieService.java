@@ -2,7 +2,7 @@ package com.service.inter;
 
 import javax.servlet.http.Cookie;
 
-import com.model.User;
+import com.model.user.User;
 
 public interface CookieService {
 	

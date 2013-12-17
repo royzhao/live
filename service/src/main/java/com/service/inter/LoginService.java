@@ -1,6 +1,7 @@
 package com.service.inter;
 
-import com.model.User;
+import com.model.user.User;
+
 
 public interface LoginService {
 	

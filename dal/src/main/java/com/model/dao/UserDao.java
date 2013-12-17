@@ -4,11 +4,12 @@ import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 
-import com.model.User;
+import com.model.user.User;
+
 
 public interface UserDao {
 	//增加用户
-	@Insert(" 		INSERT	INTO user(name,pwd,state)	VALUES(#{name},#{pwd},#{state})")
+	@Insert(" 		INSERT	INTO user(name,pwd,type,email,state)	VALUES(#{name},#{pwd},#{type},#{email},#{state})")
 	void addUser(User u);
 	 
 	//删除用户

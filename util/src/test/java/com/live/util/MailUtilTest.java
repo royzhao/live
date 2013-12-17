@@ -30,8 +30,8 @@ public class MailUtilTest {
 	      mailSenderInfo.setValidate(true);      
 	      mailSenderInfo.setUserName("yigongquan4mail@sina.com");      
 	      mailSenderInfo.setPassword("yigongquan4mail");//您的邮箱密码      
-	      mailSenderInfo.setFromAddress("524510356@qq.com");      
-	      mailSenderInfo.setToAddress("yigongquan4mail@sina.com");      
+	      mailSenderInfo.setFromAddress("yigongquan4mail@sina.com");      
+	      mailSenderInfo.setToAddress("524510356@qq.com");      
 	      mailSenderInfo.setSubject("设置邮箱标题 如http://www.guihua.org 中国桂花网");      
 	      mailSenderInfo.setContent("设置邮箱内容 如http://www.guihua.org 中国桂花网 是中国最大桂花网站==");      
 	         //这个类主要来发送邮件     

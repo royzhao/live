@@ -18,7 +18,7 @@ import javax.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.util.WebUtils;
 
-import com.model.User;
+import com.model.user.User;
 import com.service.inter.CookieService;
 
 public class SessionFilter extends HttpServlet implements Filter {

@@ -7,7 +7,7 @@ import javax.servlet.http.Cookie;
 
 import org.springframework.stereotype.Service;
 
-import com.model.User;
+import com.model.user.User;
 import com.service.inter.CookieService;
 
 @Service

@@ -3,7 +3,7 @@ package com.service.inter.imp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.model.User;
+import com.model.user.User;
 import com.model.dao.UserDao;
 import com.service.inter.UserService;
 
@@ -25,6 +25,10 @@ public class UserServiceImp implements UserService {
 
 	public User getUserById(int id) {
 		return userDao.getUserById(id);
+	}
+
+	public void addNewUser(User u) {
+		userDao.addUser(u);;
 	}
 
 }

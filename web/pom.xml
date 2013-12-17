@@ -35,6 +35,11 @@
     	<artifactId>standard</artifactId>
     	<version>1.1.2</version>
     </dependency>
+    <dependency>
+    	<groupId>dwr</groupId>
+    	<artifactId>dwr</artifactId>
+    	<version>2.0.10</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>web</finalName>

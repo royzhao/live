@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView; 
 import org.springframework.web.util.WebUtils;
 
-import com.model.User;
+import com.model.user.User;
 import com.service.inter.CookieService;
 import com.service.inter.LoginService;
 import com.service.inter.UserService;
@@ -65,11 +65,7 @@ public class LoginController {
 	public ModelAndView returnUser(HttpServletRequest request, HttpServletResponse response){
 		
 		ModelAndView mv = new ModelAndView();
-		User u = new User();
-		u.setId(0);
-		u.setName("zpl");
-		u.setState("1");
-		mv.addObject("user", u);
+		//TODO
 		return mv;
 	}
 	//负责loginCheck的请求

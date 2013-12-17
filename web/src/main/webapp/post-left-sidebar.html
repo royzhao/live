@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Tender Shop</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- Metatag -->
+		<meta property="og:title" content="Tender Shop" />
+		<meta property="og:type" content="website" />
+		<meta property="og:description" content="Minimalist  Responsive eCommerce Template" />
+		<meta property="og:url" content="http://ninetheme.com/" />
+		<meta property="og:image" content="http://ninetheme.com/logo.png" />
+		
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/font.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		
+		<!-- Favicon -->
+		<link rel="icon" href="img/hsfavicon.png">
+		
+		<!-- =========== -->
+		<!-- Google Font -->
+		<!-- =========== -->
+				
+		<script type="text/javascript">
+		
+			// Add Google Font name here
+			
+			WebFontConfig = { google: { families: [ 'Bangers', 'Lato' ] } };
+			(function() {
+			var wf = document.createElement('script');
+			wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+			'://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+			wf.type = 'text/javascript';
+			wf.async = 'true';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(wf, s);
+			})();
+			
+		</script>
+		
+		<style type="text/css">
+		
+			/* Add Google Font name here */
+
+			.wf-active {font-family: 'Lato',serif; font-size: 14px;}
+			.wf-active .logo {font-family: 'Bangers', serif;}
+			
+		</style>
+		
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<!--[if IE 7]>
+			<link rel="stylesheet" href="css/ie7.css" />
+		<![endif]-->
+		
+	</head>
+
+	<body class="wf-active">	
+		
+		<!-- =========== -->
+		<!-- Top section -->
+		<!-- =========== -->
+		
+		<div class="header-container">
+		<div class="container welcome">
+			<div class="row-fluid">
+				<div class="pull-left greet">
+					Welcome shopper, <a href="login.html">login here</a>
+				</div>
+				<div class="pull-right cart tright">
+					
+					<!-- Cart Updates -->
+					<div class="counter">
+						<a href="javascript:void(0);"><i class="icon-basket"></i> Your cart </a> : <span class="theme">$139</span>
+					</div>
+					
+					<!-- Bubble Cart Item -->
+					<div class="cartbubble">
+				
+						<div class="arrow-box">
+							
+							<!-- Item 1 -->
+							<div class="clearfix">
+								<a href="#">Sample Tshirt Stripes...</a> <span class="theme pull-right">$55</span>
+							</div>
+							
+							<!-- Item 2 -->
+							<div class="clearfix">
+								<a href="#">Sample Dress in cart</a> <span class="theme pull-right">$73</span>
+							</div>
+							
+							<!-- Item 3 -->
+							<div class="clearfix">
+								<a href="#">Sample Socks in cart</a> <span class="theme pull-right">$11</span>
+							</div>
+							<hr />
+							<!-- Total -->
+							<div class="clearfix">
+								TOTAL <span class="theme pull-right">$139</span>
+							</div>
+							<hr />
+							<div class="clearfix">
+								<a href="javascript:void(0)" id="closeit">Close</a>
+								<a href="checkout.html" class="btn theme btn-mini pull-right">Checkout</a>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>	
+		</div>
+
+		<!-- ================ -->
+		<!-- Branding section -->
+		<!-- ================ -->
+		
+		<div class="container head">
+			<div class="row">
+				<div class="span12 clearfix">
+					<div class="top row">
+						
+						<div class="span8 logo text" style="display:none"><a href="index.html">TenderShop</a></div>
+						<div class="span8 logo image"><a href="index.html"><img src="img/highreslogo.png" alt="" /></a></div>
+						
+						<div class="cart span4">
+							<form action="#" class="topsearch">
+								<input type="search" class="top-search" placeholder="Search"/>
+								<button type="submit"><i class="icon-search"></i></button>
+							</form>
+						</div>
+						
+					</div>	
+				</div>
+			</div>
+		</div>
+		
+		<!-- ================ -->
+		<!-- Main Nav section -->
+		<!-- ================ -->
+		
+		<div class="container-menu">
+		<div class="container">
+			<div class="row">		
+				<div class="span12">
+					<nav class="horizontal-nav full-width">
+						<ul class="nav" id="nav">
+							<li>
+								<a href="#">Pages</a>
+								<ul class="nav">
+									<li><a href="index.html">Homepage Default</a></li>
+									<li><a href="index-filterable.html">Homepage Filterable</a></li>
+									<li><a href="index-carousel.html">Slider with Carousel</a></li>
+									<li><a href="page.html">Full page</a></li>
+									<li><a href="page-right-sidebar.html">Right sidebar</a></li>
+									<li><a href="page-left-sidebar.html">Left sidebar</a></li>
+									<li><a href="login.html">Login Page</a></li>
+									<li><a href="checkout.html">Checkout Page</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Product</a>
+								<ul class="nav">
+									<li><a href="product-list.html">Products List Sortable</a></li>
+									<li><a href="product-list-sidebar.html">Products list with sidebar</a></li>
+									<li><a href="product.html">Product page</a></li>
+								</ul>
+							</li>
+							<li><a href="features.html">Features</a></li>
+							<li>
+								<a href="#">Blog</a>
+								<ul class="nav">
+									<li><a href="blog-right-sidebar.html">blog right sidebar</a></li>
+									<li><a href="blog-left-sidebar.html">blog left sidebar</a></li>
+									<li><a href="post-right-sidebar.html">post right sidebar</a></li>
+									<li><a href="post-left-sidebar.html">post left sidebar</a></li>
+								</ul>
+							</li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		</div>
+		</div>		
+		<div class="container">
+
+			<!-- =========== -->			
+			<!-- Single Post -->
+			<!-- =========== -->
+
+			<section class="blog">
+
+				<div class="row">
+					<header class="span12 prime">
+						<h3>Tendershop now in business</h3>
+						<p><span class="date"><i class="icon-calendar"></i> Sep 08, 2012 <i class="icon-tag"></i> <a href="#">Holiday</a>, <a href="#">Vacation</a>, <a href="#">Daughter</a></span></p>
+					</header>
+				</div>
+
+				<div class="wrap">
+					<div class="row-fluid post">
+						
+						<div class="span4 sidebar">
+							<aside>
+								<p class="title"><i class="icon-rss"></i> <strong>Recent Articles</strong></p>
+								<ul>
+									<li><a href="post-right-sidebar.html">Big things are on the way</a><br /><small>posted on April 24, 2012</small></li>
+									<li><a href="post-right-sidebar.html">Product Image Galleries</a><br /><small>posted on June 13, 2012</small></li>
+									<li><a href="post-right-sidebar.html">Tendershop now in business</a><br /><small>posted on May 9, 2012</small></li>
+								</ul>
+							</aside>
+
+							<aside class="clearfix tags">
+								<p class="title"><i class="icon-tag"></i> <strong>Tags</strong></p>
+								<span><a href="post-right-sidebar.html">Minimal</a></span>
+								<span><a href="post-right-sidebar.html">Clean</a></span>
+								<span><a href="post-right-sidebar.html">Small</a></span>
+								<span><a href="post-right-sidebar.html">Retro</a></span>
+								<span><a href="post-right-sidebar.html">Vintage</a></span>
+								<span><a href="post-right-sidebar.html">Space</a></span>
+								<span><a href="post-right-sidebar.html">Holiday</a></span>
+								<span><a href="post-right-sidebar.html">Sufring</a></span>
+							</aside>
+						</div>
+						
+						<div class="span8">
+							<article>
+								<p><img src="http://cambelt.co/600x200/Post Image?color=E55137,EEEEEE" alt=""/></p>
+
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed.</p>
+
+								<blockquote>
+									<p>Praesent bibendum lobortis lectus, quis dictum risus faucibus sagittis. Mauris a placerat lacus. Mauris rhoncus dolor sit amet nisl volutpat at consequat tortor feugiat. Ut ornare dui eu ipsum lobortis rhoncus.</p>
+									<small>mohdhazwan</small>
+								</blockquote>
+
+								<p>Fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus. Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Aenean facilisis nulla vitae urna tincidunt congue sed ut dui. Morbi malesuada nulla nec purus convallis consequat. Vivamus id mollis quam. Morbi ac commodo nulla. In condimentum orci id nisl volutpat bibendum.</p>
+
+								<ul>
+									<li>Curabitur id lectus pulvinar</li>
+									<li>Ut felis enim, congue</li>
+									<li>Praesent augue mauris</li>
+									<li>Nunc elit nisl mollis</li>
+								</ul>
+
+								<p>Consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula egestas tincidunt. Nullam risus magna, ornare vitae varius eget, scelerisque a libero. Morbi eu porttitor ipsum. Nullam lorem nisi, posuere quis volutpat eget, luctus nec massa. Pellentesque aliquam lacinia tellus sit amet bibendum. Ut posuere justo in enim pretium scelerisque. Etiam ornare vehicula euismod. Vestibulum at risus augue. Sed non semper dolor. Sed fringilla consequat velit a porta. Pellentesque sed lectus pharetra ipsum ultricies commodo non sit amet velit. Suspendisse volutpat lobortis ipsum, in scelerisque nisi iaculis a. Duis pulvinar lacinia commodo. Integer in lorem id nibh luctus aliquam. Sed elementum, est ac sagittis porttitor, neque metus ultricies ante, in accumsan massa nisl non metus. Vivamus sagittis quam a lacus dictum tempor. Nullam in semper ipsum. Cras a est id massa malesuada tincidunt. Etiam a urna tellus. Ut rutrum vehicula dui, eu.</p>	
+
+							</article>
+
+							<hr>
+
+							<!-- Social Share -->
+							<div class="share">
+								<a href="#">Twitter</a>
+								<a href="#">Facebook</a>
+								<a href="#">Pinterest</a>     
+								<a href="#">Google</a>
+								<a href="#">Email</a>
+							</div>
+
+							<hr>
+
+							<div class="navigate comments clearfix">
+								<div class="pull-left"><a href="#">&larr; Prev post</a></div>
+								<div class="pull-right"><a href="#">Next post &rarr;</a></div>
+							</div>
+							<hr />
+							<div class="comments">
+								<h5>Comments</h5>
+								<article class="clearfix">
+									<div class="pull-left avatar"><img src="http://avatars.io/auto/hazwan@jahartstudio.com" alt="" /></div>
+									<div class="pull-right text">
+										<p>Phasellus quis est sed turpis sollicitudin venenatis sed eu odio.
+										<br /><small>Shopify | Oct 29, 2012</small></p>
+									</div>
+								</article>
+								<article class="clearfix">
+									<div class="pull-left avatar"><img src="http://avatars.io/auto/avatar" alt="" /></div>
+									<div class="pull-right text">
+										<p>Consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio.
+										<br /><small>Tim McDonald | August 24, 2012</small></p>
+									</div>
+								</article>
+								<article class="clearfix">
+									<div class="pull-left avatar"><img src="http://avatars.io/auto/johnny" alt="" /></div>
+									<div class="pull-right text">
+										<p>Consequat purus metus eu velit. Proin metus odio!
+										<br /><small>Mark Zukerberger | July 16, 2012</small></p>
+									</div>
+								</article>
+								<article class="clearfix">
+									<div class="pull-left avatar"><img src="http://avatars.io/auto/depp" alt="" /></div>
+									<div class="pull-right text">
+										<p>Consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio.
+											<br /><small>Christina Jacob | August 24, 2012</small></p>
+										</p>
+									</div>
+								</article>
+							</div>
+
+							<hr />
+
+							<!-- =============== -->
+							<!-- Comment Section -->
+							<!-- =============== -->
+
+							<div class="comment-form">
+								<h5>Leave comment</h5>
+								<form class="form-horizontal">
+								  <div class="control-group">
+								    <label class="control-label" for="inputEmail">Your Name</label>
+								    <div class="controls">
+								      <input type="text" id="inputEmail" placeholder="Name..">
+								    </div>
+								  </div>
+								  <div class="control-group">
+								    <label class="control-label" for="inputPassword">Email</label>
+								    <div class="controls">
+								      <input type="text" id="inputPassword" placeholder="Email">
+								    </div>
+								  </div>
+								  <div class="control-group">
+								    <label class="control-label" for="inputPassword">Comment</label>
+								    <div class="controls">
+								      <textarea name="comment" id="" rows="5"></textarea>
+								    </div>
+								  </div>
+								  <div class="control-group">
+								    <div class="controls">
+								      <button type="submit" class="btn">Submit</button>
+								    </div>
+								  </div>
+								</form>				
+							</div>
+
+						</div> <!-- span8 ends -->
+
+					</div>
+				</div>
+
+			</section>
+		</div>
+
+		<!-- ============== -->
+		<!-- Footer section -->
+		<!-- ============== -->
+		
+		<footer>
+			<div class="container">
+				<section class="row foot">
+					<article class="span3">
+						<strong>Quick Links</strong>
+						<ul>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Privacy</a></li>
+							<li><a href="#">Returns Policies</a></li>
+							<li><a href="#">News</a></li>
+							<li><a href="#">Feedback</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</article>
+					<article class="span3">
+						<strong>Latest Post</strong>
+						<ul>
+							<li><a href="post-right-sidebar.html">Big things are on the way</a><br /><small>posted on April 24, 2012</small></li>
+							<li><a href="post-right-sidebar.html">Product Image Galleries</a><br /><small>posted on June 13, 2012</small></li>
+							<li><a href="post-right-sidebar.html">So many options Reign is feature-packed</a><br /><small>posted on May 9, 2012</small></li>
+						</ul>
+					</article>
+					<article class="span3">
+						<strong>Tweets</strong>
+						<div id="tweet"></div>
+					</article>
+					<article class="span3">
+						<strong>Newsletter</strong>
+						<div>
+							<form class="form-inline">
+							<input class="input-medium" type="text" placeholder="Email address">
+							<button class="btn"><i class="icon-direction"></i></button>
+							</form>
+						</div>
+						<address class="row-fluid">
+							<div class="pull-left clabel"><i class="icon-location"></i></div>
+							<div class="pull-left cdata">1234 Street City, ST 73243 California</div>
+						</address>
+						<address class="row-fluid">
+							<div class="pull-left clabel"><i class="icon-phone"></i></div>
+							<div class="pull-left cdata">888-555-1234</div>
+						</address>
+						<address class="row-fluid">
+							<div class="pull-left clabel"><i class="icon-mail"></i></div>
+							<div class="pull-left cdata"><a href="#">hello@Tendershop.com</a></div>
+						</address>
+							
+					</article>
+				</section>
+
+			</div>
+			<section class="row-fluid doubleline">
+					<div class="container">
+					<div class="span6">
+		
+						<div class="payment amex"></div>
+						<div class="payment mastercard"></div>
+						<div class="payment visa"></div>
+						<div class="payment paypal"></div>
+						<!-- 
+						<div class="payment cirrus"></div>
+						<div class="payment delta"></div>
+						<div class="payment direct-debit"></div>
+						<div class="payment discover"></div>
+						<div class="payment ebay"></div>
+						<div class="payment googlecheckout"></div>
+						<div class="payment maestro"></div>
+						<div class="payment moneybookers"></div>
+						<div class="payment sagepay"></div>
+						<div class="payment solo"></div>
+						<div class="payment switch"></div>
+						<div class="payment visaelectron"></div>
+						<div class="payment 2checkout"></div>
+						<div class="payment westernunion"></div> 
+						-->
+					</div>
+					<div class="span6 currency">
+						<a href="#" class="active">USD</a> <a href="#">GBP</a> <a href="#">MYR</a> <a href="#">AUD</a>
+					</div>
+					</div>
+				</section>
+		
+				<section class="row-fluid social">
+					<div class="container">
+					<div class="pull-left">&copy; 2012 TenderShop</div>
+					<div class="pull-right">
+						<ul>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-gplus"></i></a></li>
+							<li><a href="#"><i class="icon-pinterest"></i></a></li>
+							<li><a href="#"><i class="icon-tumblr"></i></a></li>
+							<li><a href="#"><i class="icon-instagrem"></i></a></li>
+						</ul>
+					</div>
+					</div>
+				</section>
+			
+		</footer>
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<script type="text/javascript" src="js/jquery.tweet.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/shop.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	
+	</body>
+</html>
